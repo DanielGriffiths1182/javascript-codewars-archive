@@ -59,3 +59,23 @@ function run() {
        return str;
     }};
 }
+
+// 5 Work with OOP, javascript 
+class Labrador {
+  constructor(n, age, g, m) {
+    this.name = n;
+    this.age = age;
+    this.gender = g;
+    this.species = "Labrador";
+    this.legs = 4;
+    this.size = "Large";
+    this.master = m;
+    this.loyal = true;
+  }
+}
+
+class Labrador {
+  constructor(name, age, gender, master) {
+    Object.assign(this, new Dog(name, age, gender, "Labrador", "Large", master, true))
+  }
+}
