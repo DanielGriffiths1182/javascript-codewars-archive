@@ -47,3 +47,15 @@ function arr2bin(arr){
   });
   return sum.toString(2);
 }
+
+
+// 4   Fix the below javascript code without removing any lines of code. The intended output is Hello World.
+function run() {
+   "use strict";
+
+    return {
+       helloWorld: function () {
+       var str = { message: "Hello World" };
+       return str;
+    }};
+}
