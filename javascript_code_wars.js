@@ -60,7 +60,7 @@ function run() {
     }};
 }
 
-// 5 Work with OOP, javascript 
+// 5 Work with OOP, javascript
 class Labrador {
   constructor(n, age, g, m) {
     this.name = n;
@@ -78,4 +78,14 @@ class Labrador {
   constructor(name, age, gender, master) {
     Object.assign(this, new Dog(name, age, gender, "Labrador", "Large", master, true))
   }
+}
+
+// 6  fix this helloWorld function
+function run() {
+
+    return {
+       helloWorld: function () {
+       var str = { message: "Hello World"};
+       return str;
+    }};
 }
