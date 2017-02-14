@@ -89,3 +89,8 @@ function run() {
        return str;
     }};
 }
+
+// 7  return string with no whitespace
+function noSpace(x){
+  return x.split(' ').join('')
+}
