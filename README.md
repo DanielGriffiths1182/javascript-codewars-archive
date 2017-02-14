@@ -1,5 +1,5 @@
 CodeWars Review
 
-Archive of CodeWars exercises completed, language - JavaScript
+Archive of completed CodeWars exercises, language - JavaScript
 
 Short description and number in chronological order.
