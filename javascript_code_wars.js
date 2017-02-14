@@ -1,4 +1,4 @@
-// 1 Use math pi and conditional - and alternate solutions
+// 1 Use math pi and conditional - alternate solutions
 function annulusArea(a) {
   if(a <= 1) {
     return 0;
@@ -24,7 +24,7 @@ function annulusArea(a) {
   return Math.round(Math.PI * a * a / 2 / 2 * 100) / 100
 }
 
-// 2     calculate the loudness of a sound wave, given its intensity as a parameter to the dBScale/db_scale function.
+// 2     Calculate the loudness of a sound wave, given its intensity as a parameter to the dBScale/db_scale function.
 
 const dBScale = intensity => 10 * (12 + Math.log10(intensity));
 //
@@ -60,7 +60,7 @@ function run() {
     }};
 }
 
-// 5 Work with OOP, javascript
+// 5 Work with OOP, javascript - introduction to constructor concept, differs from ruby
 class Labrador {
   constructor(n, age, g, m) {
     this.name = n;
@@ -80,7 +80,7 @@ class Labrador {
   }
 }
 
-// 6  fix this helloWorld function
+// 6  Fix this helloWorld function
 function run() {
 
     return {
@@ -90,7 +90,7 @@ function run() {
     }};
 }
 
-// 7  return string with no whitespace
+// 7  Return string with no whitespace
 function noSpace(x){
   return x.split(' ').join('')
 }
