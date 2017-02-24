@@ -215,7 +215,7 @@ function last(...args){
 //  13 As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
   // 1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
   // fibonacci number.
-function getLastDigit(index) {
+function getFib(index) {
     var a = 1, b = 0, c;
   while (index >= 0){
     c = a;
@@ -224,4 +224,42 @@ function getLastDigit(index) {
     index--;
   }
   return b
+}
+
+//  14 (could not solve with JavaScript - this is someone elses solution)!!!
+
+//    As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
+//    1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
+//    digit of (index) fibonacci number.
+
+function getLastDigit(index) {
+  var one = 1,
+      two = 1,
+      hold = 0,
+      counter = 2;
+  if (index === 1) {
+    return 1;
+  } else if (index === 2) {
+    return one;
+  }
+  while (counter < index) {
+    hold = two;
+    two = (one + two) % 10;
+    one = hold;
+    counter++;
+  }
+  return two;
+}
+
+function getLastDigit(index) {
+  var a = 1, b = 1, c;
+  for (var i = 3; i <= index; i++) {
+    a = a % 10;
+    b = b % 10;
+    c = a + b;
+    c = c % 10;
+    a = b;
+    b = c;
+  }
+  return b;
 }

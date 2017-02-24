@@ -51,6 +51,14 @@ After mission 1 finished. you should click "Submit" to see my three questions, a
 
 
 
-//  13 As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
-// 1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
-// fibonacci number.
+13 As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
+1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
+fibonacci number.
+
+
+
+14 (could not solve with JavaScript - this is someone elses solution)!!! --- Kept getting infinite, (index) to high
+
+As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
+1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
+digit of (index) fibonacci number.
