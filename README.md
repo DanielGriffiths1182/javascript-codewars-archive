@@ -44,3 +44,7 @@ Short description and number in chronological order.
 11 I've create three function, and defined some global variables, please select some variables that can make up the name of the function, and return them(Please note the uppercase and lowercase letters are different).
 
 After mission 1 finished. you should click "Submit" to see my three questions, and write the answer in function answer1, answer2,answer3
+
+
+
+12 Find the last element of a list.

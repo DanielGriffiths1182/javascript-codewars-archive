@@ -189,3 +189,24 @@ function answer3(){
   //the answer should be "yes" or "no"
   return "yes";
 }
+
+
+//  12 Find the last element of a list.
+function last(list){
+  var a;
+  if (arguments.length > 1) {
+    a = arguments[arguments.length - 1];
+  } else if (typeof(list)==='string') {
+    a = list.charAt(list.length-1);
+  } else if (Array.isArray(list)) {
+    a = list.pop();
+  } else {
+    a = list;
+  }
+  return a;
+}
+
+function last(...args){
+    const theLast = args[args.length - 1];
+    return theLast[theLast.length - 1] || theLast;
+  }
