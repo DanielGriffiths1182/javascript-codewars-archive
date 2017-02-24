@@ -17,3 +17,5 @@ Short description and number in chronological order.
 6 Fix this helloWorld function
 
 7 Return string with no whitespace, form object (string)
+
+8 Write function avg which calculates average of numbers in given list.

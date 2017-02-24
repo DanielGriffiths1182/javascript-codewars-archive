@@ -94,3 +94,14 @@ function run() {
 function noSpace(x){
   return x.split(' ').join('')
 }
+
+// 8  Write function avg which calaculates average of numbers in given list.
+function find_average(array) {
+  return array.reduce(function (p, c) {
+    return p + c;
+  }) / array.length;
+}
+
+function find_average(array) {
+  return array.reduce((a, b) => (a + b)) / array.length;
+}
