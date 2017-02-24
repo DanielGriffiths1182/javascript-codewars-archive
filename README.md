@@ -38,3 +38,9 @@ Short description and number in chronological order.
   index always start from 0, so the first element of array is arr[0], the last element of array is arr[arr.length-1].
 
   If we want to add new elements to the array, you can use the array method: push(). It can add an element to the end of the array. Instead, if we want to remove the last element of the array, you can use the array method: pop(). for example:
+
+
+
+11 I've create three function, and defined some global variables, please select some variables that can make up the name of the function, and return them(Please note the uppercase and lowercase letters are different).
+
+After mission 1 finished. you should click "Submit" to see my three questions, and write the answer in function answer1, answer2,answer3
