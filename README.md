@@ -48,3 +48,9 @@ After mission 1 finished. you should click "Submit" to see my three questions, a
 
 
 12 Find the last element of a list.
+
+
+
+//  13 As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
+// 1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
+// fibonacci number.

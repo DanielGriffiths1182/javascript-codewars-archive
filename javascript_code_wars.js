@@ -210,3 +210,18 @@ function last(...args){
     const theLast = args[args.length - 1];
     return theLast[theLast.length - 1] || theLast;
   }
+
+
+//  13 As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
+  // 1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
+  // fibonacci number.
+function getLastDigit(index) {
+    var a = 1, b = 0, c;
+  while (index >= 0){
+    c = a;
+    a = a + b;
+    b = c;
+    index--;
+  }
+  return b
+}
