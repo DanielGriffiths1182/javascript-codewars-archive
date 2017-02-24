@@ -105,3 +105,21 @@ function find_average(array) {
 function find_average(array) {
   return array.reduce((a, b) => (a + b)) / array.length;
 }
+
+// 9  Write a method sum (sum_array in python) that takes an array of numbers and
+//    returns the sum of the numbers. These may be integers or decimals for Ruby and any
+//    instance of Num for Haskell. The numbers can also be negative. If the array does not
+//    contain any numbers then you should return 0.
+      // Assumptions
+      //
+      // You can assume that you are only given numbers.
+      // You cannot assume the size of the array.
+      // You can assume that you do get an array and if the array is empty, return 0.
+function sum (numbers) {
+    "use strict";
+    var sum = numbers.reduce(add, 0);
+    function add(a, b) {
+      return a + b;
+  }
+  return sum;
+};
