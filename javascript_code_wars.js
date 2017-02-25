@@ -263,3 +263,19 @@ function getLastDigit(index) {
   }
   return b;
 }
+
+// 15 Return the minimum, maximum and difference between the two - values from an array (ages) in new array (myArray)
+function differenceInAges(ages){
+  var myArray = new Array();
+  myArray.push(Math.min.apply(null, ages))
+  myArray.push(Math.max.apply(null, ages))
+  myArray.push(Math.max.apply(null, ages) - Math.min.apply(null, ages))
+  return myArray
+}
+
+function differenceInAges(ages){
+  const min = Math.min(...ages);
+  const max = Math.max(...ages);
+
+  return [min, max, max-min];
+}
