@@ -279,3 +279,9 @@ function differenceInAges(ages){
 
   return [min, max, max-min];
 }
+
+//  16 Concatenate string, return with space in between 2 strings. wouldve used s1.concat(s2); otherwise
+function joinStrings(string1, string2){
+   var result = string1 + " " + string2
+   return result
+}
