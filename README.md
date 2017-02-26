@@ -86,3 +86,8 @@
 
 - 19 Remove a exclamation mark from the end of string. For a beginner kata, you can assume that the input data
  is always a string, no need to verify it.
+
+
+
+- 20 You need to write a function that reverses the words in a given string. A word can also fit an empty string.
+ If this is not clear enough, here are some examples:
