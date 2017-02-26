@@ -77,3 +77,7 @@
 
 - 17 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd"
  for odd numbers.
+
+
+
+- 18 Simple, remove the spaces from the string, then return the resultant string.
