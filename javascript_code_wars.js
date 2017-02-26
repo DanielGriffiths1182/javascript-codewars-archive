@@ -299,3 +299,8 @@ function even_or_odd(number) {
 function even_or_odd(number) {
   return number % 2 ? "Odd" : "Even"
 }
+
+//  18 Simple, remove the spaces from the string, then return the resultant string.
+function noSpace(x){
+  return x.replace(/ /g,'')
+}
