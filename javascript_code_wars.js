@@ -310,3 +310,9 @@ function noSpace(x){
 function remove(s){
   return s.replace(/!$/, '');
 }
+
+//  20 Reverse the words in a string.
+function reverse(string){
+  var reverse = string.split(' ').reverse().join(' ');
+  return reverse
+}
