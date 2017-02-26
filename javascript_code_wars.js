@@ -316,3 +316,9 @@ function reverse(string){
   var reverse = string.split(' ').reverse().join(' ');
   return reverse
 }
+
+//  21 Push string into array.
+function stringToArray(string){
+  var arr =  new Array(string)
+  return arr
+}
