@@ -329,3 +329,20 @@ function numberToString(num) {
 function booleanToString(b){
   return b.toString()
 }
+// 23 Your task is to make two functions, max and min (maximum and minimum in PHP)
+ // that take a(n) array/vector of integers list as input and outputs, respectively, 
+ // the largest and lowest number in that array/vector.
+
+
+var min = function(list){
+    var min_of_array = Math.min.apply(Math, list);
+    return min_of_array;
+}
+
+var max = function(list){
+    var max_of_array = Math.max.apply(Math, list);
+    return max_of_array;
+}
+
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);

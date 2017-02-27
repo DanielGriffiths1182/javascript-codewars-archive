@@ -100,3 +100,7 @@
 
 - 22 We need a function that can transform a number/boolean into a string.
  What ways of achieving this do you know?
+
+
+
+- 23 Your task is to make two functions, max and min (maximum and minimum in PHP) that take a(n) array/vector of integers list as input and outputs, respectively, the largest and lowest number in that array/vector.
