@@ -317,8 +317,12 @@ function reverse(string){
   return reverse
 }
 
-//  21 Push string into array.
+//  21 (SIMPLE) Push string into array.
 function stringToArray(string){
   var arr =  new Array(string)
   return arr
+}
+//  22 (SIMPLE) Return a string when given an argument (num), which is an Integer
+function numberToString(num) {
+  return num.toString()
 }

@@ -95,3 +95,8 @@
 
 
 - 21 Write a function to split a string and convert it into an array of words.
+
+
+
+- 22 We need a function that can transform a number into a string.
+ What ways of achieving this do you know?
