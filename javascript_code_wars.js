@@ -330,7 +330,7 @@ function booleanToString(b){
   return b.toString()
 }
 // 23 Your task is to make two functions, max and min (maximum and minimum in PHP)
- // that take a(n) array/vector of integers list as input and outputs, respectively, 
+ // that take a(n) array/vector of integers list as input and outputs, respectively,
  // the largest and lowest number in that array/vector.
 
 
@@ -346,3 +346,11 @@ var max = function(list){
 
 const min = (list) => Math.min(...list);
 const max = (list) => Math.max(...list);
+
+//  24 The function findDigit takes two numbers as input, num and nth.
+// It outputs the nth digit of num (counting from right to left).
+var findDigit = function(num, nth){
+  return nth > 0? +(num+'').split('').reverse().splice(nth - 1, 1): -1;
+}
+
+const findDigit = (num, nth) => nth <= 0 ? -1 : +[...Math.abs(num)+''].reverse()[nth-1] || 0;
