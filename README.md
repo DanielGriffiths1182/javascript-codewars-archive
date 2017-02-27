@@ -133,4 +133,4 @@
 
 #PYTHON
 
-- 1 
+- 1 Remove all whitespace from object (string)
