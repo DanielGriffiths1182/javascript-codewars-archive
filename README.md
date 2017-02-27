@@ -1,8 +1,8 @@
 #CodeWars Review
 
-**(JavaScript first, Python below (second))**
+**(JavaScript first, Python below-second-)**
 
-**Archive of completed CodeWars exercises, language - JavaScript**
+**Archive of completed CodeWars exercises, language - JavaScript, Python**
 
 *Short description and number in chronological order.*
 
