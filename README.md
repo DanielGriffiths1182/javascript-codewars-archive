@@ -136,3 +136,5 @@
 - 1 Remove all whitespace from object (string)
 
 - 2 Multiply two integers and return the product
+
+- 3 Return (Even) or (Odd) depending on the integer value of (number)
