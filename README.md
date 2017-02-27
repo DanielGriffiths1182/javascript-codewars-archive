@@ -1,8 +1,12 @@
 #CodeWars Review
 
+**(JavaScript first, Python below (second))**
+
 **Archive of completed CodeWars exercises, language - JavaScript**
 
 *Short description and number in chronological order.*
+
+#JAVASCRIPT
 
 - 1 Utilize Math.PI and conditional - alternate solutions, just fooling around
 
@@ -114,3 +118,19 @@
   If num is negative, ignore its sign and treat it as a positive value.
   If nth is not positive, return -1.
   Keep in mind that 42 = 00042. This means that findDigit(42, 5) would return 0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PYTHON
+
+- 1 
