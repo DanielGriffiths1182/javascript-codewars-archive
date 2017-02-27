@@ -12,6 +12,19 @@ def even_or_odd(number):
         return "Even"
     else:
         return "Odd"
-        
+# ALTERNATE SOLUTIONS
 def even_or_odd(number):
   return 'Odd' if number % 2 else 'Even'
+
+# 4 Given a string of words, return the length of the shortest word(s).
+# String will never be empty and you do not need to account for different data types.
+def find_short(s):
+      a = min(s.split(' '), key=len)
+      return len(a)
+# ALTERNATE SOLUTIONS
+def find_short(s):
+    return min(len(x) for x in s.split())
+
+def find_short(s):
+    s = s.split()
+    return len(min(s, key = len))

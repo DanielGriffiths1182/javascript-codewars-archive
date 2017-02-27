@@ -138,3 +138,6 @@
 - 2 Multiply two integers and return the product
 
 - 3 Return (Even) or (Odd) depending on the integer value of (number)
+
+- 4 Simple, given a string of words, return the length of the shortest word(s).
+ String will never be empty and you do not need to account for different data types.
