@@ -2,7 +2,7 @@
 
 **(JavaScript first, Python below-second-)**
 
-**Archive of completed CodeWars exercises, language - JavaScript, Python**
+**Archive of completed CodeWars exercises, languages - JavaScript, Python**
 
 *Short description and number in chronological order.*
 
