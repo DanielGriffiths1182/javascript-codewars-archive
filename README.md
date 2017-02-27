@@ -134,3 +134,5 @@
 #PYTHON
 
 - 1 Remove all whitespace from object (string)
+
+- 2 Multiply two integers and return the product
