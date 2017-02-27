@@ -322,7 +322,10 @@ function stringToArray(string){
   var arr =  new Array(string)
   return arr
 }
-//  22 (SIMPLE) Return a string when given an argument (num), which is an Integer
+//  22 (SIMPLE) Return a string when given an argument (num), which is an Integer/Boolean
 function numberToString(num) {
   return num.toString()
+}
+function booleanToString(b){
+  return b.toString()
 }

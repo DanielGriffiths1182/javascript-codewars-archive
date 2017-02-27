@@ -98,5 +98,5 @@
 
 
 
-- 22 We need a function that can transform a number into a string.
+- 22 We need a function that can transform a number/boolean into a string.
  What ways of achieving this do you know?
