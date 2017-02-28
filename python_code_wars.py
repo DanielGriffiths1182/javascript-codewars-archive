@@ -47,3 +47,9 @@ def sum_array(arr):
     if arr == None or len(arr) < 3:
         return 0
     return sum(arr) - max(arr) - min(arr)
+
+# 6 In this little assignment you are given a string of space separated numbers,
+# and have to return the highest and lowest number.
+def high_and_low(numbers):
+    nums = map(int, numbers.split(" "))
+    return " " .join(map(str, (max(nums), min(nums))))

@@ -146,3 +146,6 @@
  (the value, not the index!).
  (The highest/lowest element is respectively only one element at each edge, even if there are more than one with the
  same value!)
+
+- 6 In this little assignment you are given a string of space separated numbers, and have to return the highest and
+ lowest number.
