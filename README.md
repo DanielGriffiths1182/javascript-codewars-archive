@@ -141,3 +141,8 @@
 
 - 4 Simple, given a string of words, return the length of the shortest word(s).
  String will never be empty and you do not need to account for different data types.
+
+- 5 Sum all the numbers of the array (in F# and Haskell you get a list) except the highest and the lowest element  
+ (the value, not the index!).
+ (The highest/lowest element is respectively only one element at each edge, even if there are more than one with the
+ same value!)
