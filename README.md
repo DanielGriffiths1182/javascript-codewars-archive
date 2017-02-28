@@ -125,7 +125,9 @@
  a function whose input is either true or false, and whose output is the string representation of the input, either
  "true" or "false".
 
-
+- 27 Complete the bool_to_word (Javascript: boolToWord ) method.
+ Given: a boolean value
+ Return: a 'Yes' string for true and a 'No' string for false
 
 
 

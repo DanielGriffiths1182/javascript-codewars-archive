@@ -361,8 +361,13 @@ var stringToNumber = function(str){
      return parseInt(str, 0)
 }
 
-//  26 Return boolean, from string. 
+//  26 Return boolean, from string.
 function booleanToString(b){
   var n = new Boolean(b);
   return n.toString()
+}
+
+//  27 Return Yes, for true. No, for false. Turning a boolean into a coorelated string.
+function boolToWord( bool ){
+  return bool ? 'Yes' : 'No';
 }
