@@ -378,3 +378,9 @@ function getAverage(marks){
   var avg = sum / marks.length;
   return parseInt(avg, 0)
 }
+
+// 29 Return the difference between num, and 6.
+function sixToast(num) {
+  var n = num - 6
+  return Math.abs(n)
+}

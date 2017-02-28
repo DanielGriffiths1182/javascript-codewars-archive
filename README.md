@@ -134,6 +134,9 @@
  Return the average of the given array rounded down to its nearest integer.
  The array will never be empty.
 
+- 29 Make a function that counts how many more (or less) pieces of toast you need in the toasters, you want 6
+ pieces. Even though you may need more or less, the number will still be positive, not negative.
+
 
 
 
