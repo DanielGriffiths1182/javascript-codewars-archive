@@ -162,3 +162,5 @@
 
 - 6 In this little assignment you are given a string of space separated numbers, and have to return the highest and
  lowest number.
+
+- 7 Write function avg which calculates average of numbers in given list.

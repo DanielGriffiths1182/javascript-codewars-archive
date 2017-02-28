@@ -57,3 +57,10 @@ def high_and_low(numbers):
 def high_and_low(numbers):
     nums = sorted(numbers.split(), key=int)
     return '{} {}'.format(nums[-1], nums[0])
+
+# 7 Find the average of a list (array), if the list is empty, still return 0.
+def find_average(array):
+    if len(array) == 0:
+        return 0
+    else:
+        return sum(array)/len(array)
