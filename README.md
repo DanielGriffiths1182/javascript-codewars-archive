@@ -121,7 +121,9 @@
 
 - 25 We need a function that can transform a string into a number. What ways of achieving this do you know?
 
-
+- 26 A function is a block of code that takes an input and produces an output. In this example, boolean_to_string is
+ a function whose input is either true or false, and whose output is the string representation of the input, either
+ "true" or "false".
 
 
 

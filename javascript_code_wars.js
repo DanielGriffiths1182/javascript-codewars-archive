@@ -360,3 +360,9 @@ const findDigit = (num, nth) => nth <= 0 ? -1 : +[...Math.abs(num)+''].reverse()
 var stringToNumber = function(str){
      return parseInt(str, 0)
 }
+
+//  26 Return boolean, from string. 
+function booleanToString(b){
+  var n = new Boolean(b);
+  return n.toString()
+}
