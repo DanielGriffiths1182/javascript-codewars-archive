@@ -29,7 +29,7 @@ def find_short(s):
     s = s.split()
     return len(min(s, key = len))
 
-# 5 Sum all the numbers of the array (in F# and Haskell you get a list) 
+# 5 Sum all the numbers of the array (in F# and Haskell you get a list)
 # except the highest and the lowest element (the value, not the index!).
 # (The highest/lowest element is respectively only one element at each edge,
 # even if there are more than one with the same value!)
@@ -39,3 +39,11 @@ def sum_array(arr):
     else:
         arr.sort()
         return sum(arr[1:-1])
+
+def sum_array(arr):
+    return sum(sorted(arr)[1:-1]) if arr and len(arr) > 1 else 0
+
+def sum_array(arr):
+    if arr == None or len(arr) < 3:
+        return 0
+    return sum(arr) - max(arr) - min(arr)
