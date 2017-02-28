@@ -371,3 +371,10 @@ function booleanToString(b){
 function boolToWord( bool ){
   return bool ? 'Yes' : 'No';
 }
+
+//  28 Return the mean of the values in array (marks), round to integer, not float
+function getAverage(marks){
+  var sum = marks.reduce((pre, cur) => cur += pre);
+  var avg = sum / marks.length;
+  return parseInt(avg, 0)
+}
