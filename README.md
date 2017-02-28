@@ -137,7 +137,8 @@
 - 29 Make a function that counts how many more (or less) pieces of toast you need in the toasters, you want 6
  pieces. Even though you may need more or less, the number will still be positive, not negative.
 
-
+- 30 Debug this function to make the tests pass, operations ( +, * ) on arrays,
+ and the reverse of a string in an interesting way.
 
 
 

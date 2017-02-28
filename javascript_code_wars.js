@@ -384,3 +384,18 @@ function sixToast(num) {
   var n = num - 6
   return Math.abs(n)
 }
+
+//  30 Edit this function to make the tests pass, operations ( +, * ) on arrays,
+//  and the reverse of a string in an interesting way
+function multi(arr) {
+  return arr.reduce(function(a,b){return a*b;});
+}
+function add(arr) {
+  return arr.reduce(function(a,b){return a+b;});
+}
+function reverse(str) {
+    var string = '';
+  for (var i = str.length - 1; i >= 0; i--)
+    string += str[i];
+  return string;
+}
