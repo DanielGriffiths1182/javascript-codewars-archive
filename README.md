@@ -164,3 +164,5 @@
  lowest number.
 
 - 7 Write function avg which calculates average of numbers in given list.
+
+- 8 Return the given string (st) with the order of words reversed. 

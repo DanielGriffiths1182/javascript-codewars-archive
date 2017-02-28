@@ -64,3 +64,7 @@ def find_average(array):
         return 0
     else:
         return sum(array)/len(array)
+
+# 8 Return the given string (st) with the order of words reversed. 
+def reverse(st):
+    return " ".join(st.split()[::-1])
