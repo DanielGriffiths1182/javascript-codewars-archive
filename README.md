@@ -35,19 +35,24 @@
 
 - 10 In javascript, Array is one of basic data types. Define an empty array can use var arr=new Array() or var arr=[]
 
-  Array has an attribute: length, if there is an array named arr, using arr.length to know how many elements are contained in the array.
+  Array has an attribute: length, if there is an array named arr, using arr.length to know how many elements are  
+ contained in the array.
 
   Each element in the array has an index, use arr[index] to get the value of element.
 
   index always start from 0, so the first element of array is arr[0], the last element of array is arr[arr.length-1].
 
-  If we want to add new elements to the array, you can use the array method: push(). It can add an element to the end of the array. Instead, if we want to remove the last element of the array, you can use the array method: pop(). for example:
+  If we want to add new elements to the array, you can use the array method: push(). It can add an element to the
+  end of the array. Instead, if we want to remove the last element of the array, you can use the array method:
+  pop(). for example:
 
 
 
-- 11 I've create three function, and defined some global variables, please select some variables that can make up the name of the function, and return them(Please note the uppercase and lowercase letters are different).
+- 11 I've create three function, and defined some global variables, please select some variables that can make up
+ the name of the function, and return them(Please note the uppercase and lowercase letters are different).
 
- After mission 1 finished. you should click "Submit" to see my three questions, and write the answer in function answer1,  answer2,answer3
+ After mission 1 finished. you should click "Submit" to see my three questions, and write the answer in function
+ answer1,  answer2,answer3
 
 
 
@@ -69,9 +74,12 @@
 
 
 
-- 15 At the annual family gathering, the family likes to find the oldest living family member’s age and the youngest  family member’s age and calculate the difference between them.
+- 15 At the annual family gathering, the family likes to find the oldest living family member’s age and the
+ youngest  family member’s age and calculate the difference between them.
 
- You will be given an array of all the family members' ages, in any order. The ages will be given in whole numbers, so a baby of 5 months, will have an ascribed ‘age’ of 0. Return a new array with [youngest age, oldest age, difference between the youngest and oldest age].
+ You will be given an array of all the family members' ages, in any order. The ages will be given in whole numbers,  
+ so a baby of 5 months, will have an ascribed ‘age’ of 0. Return a new array with [youngest age, oldest age,
+ difference between the youngest and oldest age].
 
 
 
@@ -107,11 +115,13 @@
 
 
 
-- 23 Your task is to make two functions, max and min (maximum and minimum in PHP) that take a(n) array/vector of integers list as input and outputs, respectively, the largest and lowest number in that array/vector.
+- 23 Your task is to make two functions, max and min (maximum and minimum in PHP) that take a(n) array/vector of
+ integers list as input and outputs, respectively, the largest and lowest number in that array/vector.
 
 
 
-- 24 The function findDigit takes two numbers as input, num and nth. It outputs the nth digit of num (counting from right to left).
+- 24 The function findDigit takes two numbers as input, num and nth. It outputs the nth digit of num (counting from
+ right to left).
 
   Note
 
