@@ -65,6 +65,17 @@ def find_average(array):
     else:
         return sum(array)/len(array)
 
-# 8 Return the given string (st) with the order of words reversed. 
+# 8 Return the given string (st) with the order of words reversed.
 def reverse(st):
     return " ".join(st.split()[::-1])
+
+# 9 Given n (number of times someone hoola-hoops),
+# if (n) is greater than or equal to 10 (see if statement), else (see else statement)
+def hoopCount(n):
+    if n >= 10:
+        return "Great, now move on to tricks"
+    else:
+        return "Keep at it until you get it"
+
+def hoopCount(n):
+    return "Keep at it until you get it" if n<10 else "Great, now move on to tricks"
