@@ -182,3 +182,12 @@
  message :)
  -If Alex gets 10 or more hoops, return the string "Great, now move on to tricks".
  -If he doesn't get 10 hoops, return the string "Keep at it until you get it".
+
+- 10 Given a random string consisting of numbers, letters, symbols, you need to sum up the numbers in the string.
+ Note:
+ Consecutive integers should be treated as a single number. eg, 2015 should be treated as a single number 2015, NOT \
+ four numbers
+ All the numbers should be treaded as positive integer. eg, 11-14 should be treated as two numbers 11 and 14. Same  
+ as
+ 3.14, should be treated as two numbers 3 and 14
+ If no number was given in the string, it should return 0

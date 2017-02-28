@@ -79,3 +79,16 @@ def hoopCount(n):
 
 def hoopCount(n):
     return "Keep at it until you get it" if n<10 else "Great, now move on to tricks"
+
+# 10 (Took a long time to figure out the import groupby tool, and itertools)
+# sum(l) and len(l), these are getting easy to remember
+# Extract integers from string, sum the list of extracted integers.
+def sum_from_string(string):
+    from itertools import groupby
+    l = [int(''.join(i)) for is_digit, i in groupby(string, str.isdigit) if is_digit]
+    return sum(l)
+
+import re
+def sum_from_string(string):
+    d = re.findall("\d+",string)
+    return sum(int(i) for i in d)
