@@ -354,3 +354,9 @@ var findDigit = function(num, nth){
 }
 
 const findDigit = (num, nth) => nth <= 0 ? -1 : +[...Math.abs(num)+''].reverse()[nth-1] || 0;
+
+//  25 Return integer, from string. Got NaN becuase I misinterpreted the way the function was set up, and dont
+//  forget the radix.
+var stringToNumber = function(str){
+     return parseInt(str, 0)
+}

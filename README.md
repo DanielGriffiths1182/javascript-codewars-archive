@@ -119,6 +119,8 @@
   If nth is not positive, return -1.
   Keep in mind that 42 = 00042. This means that findDigit(42, 5) would return 0.
 
+- 25 We need a function that can transform a string into a number. What ways of achieving this do you know?
+
 
 
 
