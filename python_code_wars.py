@@ -113,3 +113,8 @@ def calculate(a, b, c):
 # 13 Return true if string contains only digits, false otherwise or false if empty.
 def is_digit(n):
     return n.isdigit() and len(n)==1
+
+# 14 Find length of shortest word in string. (Python sort is alphabetic. you have to define key=len)
+def find_short(s):
+    list = s.split()
+    return len(sorted(list, key=len)[0])

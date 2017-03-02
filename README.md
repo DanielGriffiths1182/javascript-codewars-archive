@@ -197,3 +197,5 @@
 - 12 Simple correction of 'order of operations' function.
 
 - 13 Return true if string contains only digits, false otherwise or false if empty.
+
+- 14 Find length of shortest word in string. (Python sort is alphabetic. you have to define key=len)
