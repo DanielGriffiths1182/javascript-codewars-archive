@@ -109,3 +109,7 @@ def is_isogram(string):
 #  12 Simple correction of 'order of operations' function.
 def calculate(a, b, c):
     return (a + b) * c
+
+# 13 Return true if string contains only digits, false otherwise or false if empty.
+def is_digit(n):
+    return n.isdigit() and len(n)==1
