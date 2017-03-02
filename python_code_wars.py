@@ -149,3 +149,15 @@ def is_uppercase(inp):
 #  17 Give a list, find the average of all the values.
 def get_average(marks):
     return sum(marks) / len(marks)
+
+#  18 Write a function getMean that takes as parameters an array (arr) and 2 integers (x and y).
+#  The function should return the mean between the mean of the the first x elements of the array and
+#  the mean of the last y elements of the array.
+#  The mean should be computed if both x and y have values higher than 1 but less or equal to the array's length.
+#  Otherwise the function should return -1.
+def get_mean(arr,x,y):
+    if x == 1 or y == 1 or x > len(arr) or y > len(arr):
+        return -1
+    mean_x = sum(arr[:x])/len(arr[:x])
+    mean_y = sum(arr[-y:])/len(arr[-y:])
+    return (mean_x + mean_y) / 2

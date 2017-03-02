@@ -221,3 +221,10 @@
  - 16 Create a method is_uppercase() to see whether the string is ALL CAPS.
 
  - 17 Give a list, find the average of all the values.
+
+- 18 Write a function getMean that takes as parameters an array (arr) and 2 integers (x and y). The function should
+ return the mean between the mean of the the first x elements of the array and the mean of the last y elements of
+ the array.
+
+ The mean should be computed if both x and y have values higher than 1 but less or equal to the array's length.
+ Otherwise the function should return -1.
