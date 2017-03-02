@@ -93,7 +93,7 @@ def sum_from_string(string):
     d = re.findall("\d+",string)
     return sum(int(i) for i in d)
 
-# 11 Return boolean (true, false) confirming is (string) is an isogram (contains no duplicate characters).
+# 11 Return boolean (true, false) confirming if (string) is an isogram (contains no duplicate characters).
 def is_isogram(string):
     line = string.upper()
     if not line:

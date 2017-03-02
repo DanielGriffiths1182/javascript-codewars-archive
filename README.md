@@ -192,4 +192,4 @@
  3.14, should be treated as two numbers 3 and 14
  If no number was given in the string, it should return 0
 
-- 11 Return boolean (true, false) confirming is (string) is an isogram (contains no duplicate characters).
+- 11 Return boolean (true, false) confirming if (string) is an isogram (contains no duplicate characters).
