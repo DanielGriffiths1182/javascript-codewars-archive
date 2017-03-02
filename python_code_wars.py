@@ -118,3 +118,6 @@ def is_digit(n):
 def find_short(s):
     list = s.split()
     return len(sorted(list, key=len)[0])
+
+def find_short(s):
+    return min(len(x) for x in s.split())
