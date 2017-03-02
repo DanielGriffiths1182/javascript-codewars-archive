@@ -219,3 +219,5 @@
  assuming all seats are occupied.
 
  - 16 Create a method is_uppercase() to see whether the string is ALL CAPS.
+
+ - 17 Give a list, find the average of all the values.

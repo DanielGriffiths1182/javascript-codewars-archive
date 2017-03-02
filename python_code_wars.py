@@ -145,3 +145,7 @@ def seats_in_theater(tot_cols, tot_rows, col, row):
 #  16 Create a method is_uppercase() to see whether the string is ALL CAPS.
 def is_uppercase(inp):
     return inp.isupper()
+
+#  17 Give a list, find the average of all the values.
+def get_average(marks):
+    return sum(marks) / len(marks)
