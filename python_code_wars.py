@@ -141,3 +141,7 @@ def seats_in_theater(tot_cols, tot_rows, col, row):
     to_left = tot_rows - (row)
     behind = above * to_left
     return behind
+
+#  16 Create a method is_uppercase() to see whether the string is ALL CAPS.
+def is_uppercase(inp):
+    return inp.isupper()
