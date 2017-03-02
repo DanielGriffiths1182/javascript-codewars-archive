@@ -105,3 +105,7 @@ def is_isogram(string):
 
 def is_isogram(string):
     return len(string) == len(set(string.lower()))
+
+#  12 Simple correction of 'order of operations' function.
+def calculate(a, b, c):
+    return (a + b) * c

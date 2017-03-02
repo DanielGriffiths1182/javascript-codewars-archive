@@ -193,3 +193,5 @@
  If no number was given in the string, it should return 0
 
 - 11 Return boolean (true, false) confirming if (string) is an isogram (contains no duplicate characters).
+
+- 12 Simple correction of 'order of operations' function.
