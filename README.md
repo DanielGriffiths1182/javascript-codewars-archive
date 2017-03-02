@@ -150,6 +150,10 @@
 - 30 Debug this function to make the tests pass, operations ( +, * ) on arrays,
  and the reverse of a string in an interesting way.
 
+- 31 I created this function to add five to any number that was passed in to it and return the new value. It doesn't
+ throw any errors but it returns the wrong number.
+
+
 
 
 
@@ -207,7 +211,7 @@
 
  The main problem is your shyness: you're afraid that you'll end up blocking the view (even if only for a couple of
  seconds) of all the people who sit behind you and in your column or the columns to your left. To gain some
- courage, you decide to calculate the number of such people and see if you can possibly make it to the exit without 
+ courage, you decide to calculate the number of such people and see if you can possibly make it to the exit without
  disturbing too many people.
 
  Given the total number of rows and columns in the theater (nRows and nCols, respectively), and the row and column
