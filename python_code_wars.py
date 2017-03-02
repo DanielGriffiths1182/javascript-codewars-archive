@@ -102,3 +102,6 @@ def is_isogram(string):
         if line.count(x) > 1:
             return False
     return True
+
+def is_isogram(string):
+    return len(string) == len(set(string.lower()))
