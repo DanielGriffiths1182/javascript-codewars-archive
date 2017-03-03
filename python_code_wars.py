@@ -175,3 +175,6 @@ def count_sheeps(array1):
 #  20 One flowers petals are even and one flowers petals are odd == true, else false.
 def lovefunc( flower1, flower2 ):
    return False if (flower1 + flower2) % 2 == 0 else True
+# BETTER
+ def lovefunc( flower1, flower2 ):
+    return (flower1+flower2)%2
