@@ -178,3 +178,11 @@ def lovefunc( flower1, flower2 ):
 # BETTER
  def lovefunc( flower1, flower2 ):
     return (flower1+flower2)%2
+
+#  21 YEESS! Write a function numberJoy() which tests if a positive integer n is Harshad,
+# and returns True if the product of its digit sum, and its digit sum reversed, equals n. Otherwise return False.
+def numberJoy(n):
+    listed = map(int, str(n))
+    digit_sum = sum(listed)
+    rev_digit_sum = int(str(digit_sum)[::-1])
+    return True if digit_sum * rev_digit_sum == n else False
