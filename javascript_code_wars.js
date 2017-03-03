@@ -416,3 +416,10 @@ function lovefunc(flower1, flower2){
 function lovefunc(flower1, flower2){
   return flower1 % 2 !== flower2 % 2;
 }
+
+//  33
+function numberJoy(n) {
+  var digits = eval(n.toString().split('').join('+'));
+  var rev_digits = digits.toString().split('').reverse().join('');
+  return digits * rev_digits == n ? true : false;
+}
