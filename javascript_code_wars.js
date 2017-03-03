@@ -406,3 +406,13 @@ function addFive(num) {
   var total = num + 5
   return total
 }
+
+//  32 One flowers petals are even and one flowers petals are odd == true, else false.
+function lovefunc(flower1, flower2){
+  var love = (flower1 + flower2) % 2 == 0 ? false : true;
+  return love
+}
+// BETTER
+function lovefunc(flower1, flower2){
+  return flower1 % 2 !== flower2 % 2;
+}
