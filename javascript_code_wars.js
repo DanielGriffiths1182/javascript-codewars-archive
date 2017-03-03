@@ -417,7 +417,8 @@ function lovefunc(flower1, flower2){
   return flower1 % 2 !== flower2 % 2;
 }
 
-//  33
+//  33 Write a function numberJoy() which tests if a positive integer n is Harshad,
+//  and returns True if the product of its digit sum, and its digit sum reversed, equals n. Otherwise return False.
 function numberJoy(n) {
   var digits = eval(n.toString().split('').join('+'));
   var rev_digits = digits.toString().split('').reverse().join('');
