@@ -228,3 +228,6 @@
 
  The mean should be computed if both x and y have values higher than 1 but less or equal to the array's length.
  Otherwise the function should return -1.
+
+- 19 Consider an array of sheep where some sheep may be missing from their place. We need a function that counts the
+ number of sheep present in the array (true means present).

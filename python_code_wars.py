@@ -161,3 +161,13 @@ def get_mean(arr,x,y):
     mean_x = sum(arr[:x])/len(arr[:x])
     mean_y = sum(arr[-y:])/len(arr[-y:])
     return (mean_x + mean_y) / 2
+
+# 19 Consider an array of sheep where some sheep may be missing from their place.
+# We need a function that counts the number of sheep present in the array (true means present).
+# (The array is long, and entirely filled with True, False)
+def count_sheeps(array1):
+    count = 0
+    for x in array1:
+        if x == True:
+            count +=1
+    return count
