@@ -262,5 +262,8 @@
 
 - 23 Given a list of integers, invert the values of all integers from negative to positive or positive to negative.
 
-- 24 Identical Elements
+- 24 "Identical Elements"
  Compare two lists and return boolean based on whether they contain any of the same values.
+
+- 25 "Volume of a Cuboid"
+ Return the volume of a cube, given the dimensions.

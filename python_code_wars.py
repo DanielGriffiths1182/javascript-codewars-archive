@@ -200,3 +200,7 @@ def invert(lst):
 #  24 Compare two lists and return boolean based on whether they contain any of the same values.
 def duplicate_elements(m, n):
     return bool(set(m) & set(n))
+
+#  25 "Volume of a Cuboid" - Return the volume of a cube, given the dimensions.
+def getVolumeOfCubiod(length, width, height):
+    return length * width * height
