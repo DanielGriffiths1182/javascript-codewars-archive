@@ -424,3 +424,8 @@ function numberJoy(n) {
   var rev_digits = digits.toString().split('').reverse().join('');
   return digits * rev_digits == n ? true : false;
 }
+
+//  34 (Needed assistance, didnt solve on my own) Invert a given list of integer values.
+function invert(array) {
+   return array.map( x => x === 0 ? x : -x);
+}

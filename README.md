@@ -165,6 +165,7 @@
  Write a function numberJoy() which tests if a positive integer n is Harshad and returns True if the product of its
  digit sum, and its digit sum reversed, equals n. Otherwise return False.
 
+- 34 (Needed assistance, didnt solve on my own) Invert a given list of integer values.
 
 
 
