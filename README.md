@@ -267,3 +267,6 @@
 
 - 25 "Volume of a Cuboid"
  Return the volume of a cube, given the dimensions.
+
+- 26 "Convert a Number to a String!"  - super simple
+ Return integer give a number value as string.

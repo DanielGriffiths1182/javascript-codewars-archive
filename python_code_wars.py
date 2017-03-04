@@ -204,3 +204,7 @@ def duplicate_elements(m, n):
 #  25 "Volume of a Cuboid" - Return the volume of a cube, given the dimensions.
 def getVolumeOfCubiod(length, width, height):
     return length * width * height
+
+#  26 (super simple) "Convert a Number to a String!" - Return integer give a number value as string.
+def number_to_string(num):
+    return str(num)
