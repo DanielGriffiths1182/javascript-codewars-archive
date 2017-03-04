@@ -261,3 +261,6 @@
 - 22 Complete the squareSum method so that it squares each number passed into it and then sums the results together.
 
 - 23 Given a list of integers, invert the values of all integers from negative to positive or positive to negative.
+
+- 24 Identical Elements
+ Compare two lists and return boolean based on whether they contain any of the same values.

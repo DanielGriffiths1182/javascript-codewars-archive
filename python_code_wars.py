@@ -196,3 +196,7 @@ def square_sum(numbers):
 #  23 Given a list of integers, invert the values of all integers from negative to positive or positive to negative.
 def invert(lst):
     return [-x for x in lst]
+
+#  24 Compare two lists and return boolean based on whether they contain any of the same values.
+def duplicate_elements(m, n):
+    return bool(set(m) & set(n))
