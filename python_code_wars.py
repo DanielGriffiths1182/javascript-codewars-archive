@@ -186,3 +186,9 @@ def numberJoy(n):
     digit_sum = sum(listed)
     rev_digit_sum = int(str(digit_sum)[::-1])
     return True if digit_sum * rev_digit_sum == n else False
+
+#  22 Given a list (numbers),
+#  square each object (integer) in the list and then return the sum of all squared objects.
+def square_sum(numbers):
+    sq = [x ** 2 for x in numbers]
+    return sum(sq)

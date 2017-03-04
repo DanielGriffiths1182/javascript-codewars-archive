@@ -256,3 +256,5 @@
  Wikipedia for further details.
  Write a function numberJoy() which tests if a positive integer n is Harshad and returns True if the product of its
  digit sum, and its digit sum reversed, equals n. Otherwise return False.
+
+- 22 Complete the squareSum method so that it squares each number passed into it and then sums the results together.
