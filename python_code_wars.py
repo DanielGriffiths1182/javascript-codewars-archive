@@ -192,3 +192,7 @@ def numberJoy(n):
 def square_sum(numbers):
     sq = [x ** 2 for x in numbers]
     return sum(sq)
+
+#  23 Given a list of integers, invert the values of all integers from negative to positive or positive to negative.
+def invert(lst):
+    return [-x for x in lst]

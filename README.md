@@ -258,3 +258,5 @@
  digit sum, and its digit sum reversed, equals n. Otherwise return False.
 
 - 22 Complete the squareSum method so that it squares each number passed into it and then sums the results together.
+
+- 23 Given a list of integers, invert the values of all integers from negative to positive or positive to negative.
