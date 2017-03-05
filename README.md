@@ -165,11 +165,11 @@
  Write a function numberJoy() which tests if a positive integer n is Harshad and returns True if the product of its
  digit sum, and its digit sum reversed, equals n. Otherwise return False.
 
-- 34 (Needed assistance, didnt solve on my own) Invert a given list of integer values.
+- 34 Invert a given list of integer values.
 
-- 35 We need a simple function that determines if a plural is needed or not. It should take a number, and return
- true if a plural should be used with that number or false if not. This would be useful when printing out a string
- such as 5 minutes, 14 apples, or 1 sun.
+- 35 "Plural" - We need a simple function that determines if a plural is needed or not. It should take a number, and
+ return true if a plural should be used with that number or false if not. This would be useful when printing out a
+ string such as 5 minutes, 14 apples, or 1 sun.
 
 
 
@@ -273,3 +273,7 @@
 
 - 26 "Convert a Number to a String!"  - super simple
  Return integer give a number value as string.
+
+- 27 "Plural" - We need a simple function that determines if a plural is needed or not. It should take a number, and
+ return true if a plural should be used with that number or false if not. This would be useful when printing out a
+ string such as 5 minutes, 14 apples, or 1 sun.
