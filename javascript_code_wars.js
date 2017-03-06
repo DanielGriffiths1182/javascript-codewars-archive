@@ -430,9 +430,18 @@ function invert(array) {
    return array.map( x => x === 0 ? x : -x);
 }
 
-//  35 "Plural" - We need a simple function that determines if a plural is needed or not. 
+//  35 "Plural" - We need a simple function that determines if a plural is needed or not.
 //     It should take a number, and return true if a plural should be used with that number or false if not.
 //     This would be useful when printing out a string such as 5 minutes, 14 apples, or 1 sun.
 function plural(n) {
   return n === 1 ? false : true;
+}
+
+//  36 "Get length of the list recursively" - Write function lenR which returns the length of a given list.
+//     Try no to cheat and provide recursive solution.
+function lenR(x) {
+   if (x == 0) {
+        return 0;
+    }
+    return lenR(x.slice(0, -1)) + 1;
 }
