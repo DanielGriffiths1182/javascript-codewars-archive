@@ -2,7 +2,7 @@
 
 **Archive of completed CodeWars exercises, languages - JavaScript**
 
-*Short description and number in chronological order.*
+*Short description and numbered in chronological order.*
 
 #JAVASCRIPT
 
