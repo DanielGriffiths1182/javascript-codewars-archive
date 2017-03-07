@@ -1,4 +1,4 @@
-#JavaScript/Python CodeWars Review
+#JavaScript CodeWars Review
 
 **(JavaScript first, Python below-second-)**
 
