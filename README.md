@@ -171,3 +171,5 @@
 
 - 36 "Get length of the list recursively" - Write function lenR which returns the length of a given list. Try no to
  cheat and provide recursive solution.
+
+- 37 "Circle area inside square" - Turn an area of a square in to an area of a circle that fits perfectly inside the square.
