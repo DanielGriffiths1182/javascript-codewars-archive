@@ -22,14 +22,10 @@
 
 - 8 Write function avg which calculates average of numbers in given list.
 
-
-
 - 9 Write a method sum (sum_array in python) that takes an array of numbers and
   returns the sum of the numbers. These may be integers or decimals for Ruby and any
   instance of Num for Haskell. The numbers can also be negative. If the array does not
   contain any numbers then you should return 0.
-
-
 
 - 10 In javascript, Array is one of basic data types. Define an empty array can use var arr=new Array() or var arr=[]
 
@@ -44,33 +40,23 @@
   end of the array. Instead, if we want to remove the last element of the array, you can use the array method:
   pop(). for example:
 
-
-
 - 11 I've create three function, and defined some global variables, please select some variables that can make up
  the name of the function, and return them(Please note the uppercase and lowercase letters are different).
 
  After mission 1 finished. you should click "Submit" to see my three questions, and write the answer in function
  answer1,  answer2,answer3
 
-
-
 - 12 Find the last element of a list.
-
-
 
 - 13 As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
  1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
  fibonacci number.
-
-
 
 - 14 (could not solve with JavaScript - this is someone elses solution)!!! --- Kept getting infinite, (index) to high
 
  As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
  1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
  digit of (index) fibonacci number.
-
-
 
 - 15 At the annual family gathering, the family likes to find the oldest living family member’s age and the
  youngest  family member’s age and calculate the difference between them.
@@ -79,44 +65,26 @@
  so a baby of 5 months, will have an ascribed ‘age’ of 0. Return a new array with [youngest age, oldest age,
  difference between the youngest and oldest age].
 
-
-
 - 16 Concatenate strings.
-
-
 
 - 17 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd"
  for odd numbers.
 
-
-
 - 18 Simple, remove the spaces from the string, then return the resultant string.
-
-
 
 - 19 Remove a exclamation mark from the end of string. For a beginner kata, you can assume that the input data
  is always a string, no need to verify it.
 
-
-
 - 20 You need to write a function that reverses the words in a given string. A word can also fit an empty string.
  If this is not clear enough, here are some examples:
 
-
-
 - 21 Write a function to split a string and convert it into an array of words.
-
-
 
 - 22 We need a function that can transform a number/boolean into a string.
  What ways of achieving this do you know?
 
-
-
 - 23 Your task is to make two functions, max and min (maximum and minimum in PHP) that take a(n) array/vector of
  integers list as input and outputs, respectively, the largest and lowest number in that array/vector.
-
-
 
 - 24 The function findDigit takes two numbers as input, num and nth. It outputs the nth digit of num (counting from
  right to left).
