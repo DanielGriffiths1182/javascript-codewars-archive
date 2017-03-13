@@ -148,3 +148,7 @@
 
 - 39 (LVL 7) "Square(n) Sum" - Complete the squareSum method so that it squares each number passed
  into it and then sums the results together.
+
+- 40 (LVL 8) "Counting Sheep" - Consider an array of sheep where some sheep may be missing from their place.
+ We need a function that counts the number of sheep present in the array (true means present).
+ NOTE: Array of true/false booleans, to be clear.

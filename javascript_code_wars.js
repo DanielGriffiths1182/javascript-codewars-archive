@@ -467,3 +467,16 @@ function squareSum(numbers){
   })
   return sq.reduce(add, 0);
 };
+
+//  40 (LVL 8) "Counting Sheep" - Consider an array of sheep where some sheep may be missing from their place.
+// We need a function that counts the number of sheep present in the array (true means present).
+//  NOTE Array of true/false booleans, to be clear.
+function countSheeps(arrayOfSheep) {
+  var count = 0;
+  arrayOfSheep.map(function(current){
+    if(current){
+      count += 1;
+    }
+  });
+  return count;
+};
