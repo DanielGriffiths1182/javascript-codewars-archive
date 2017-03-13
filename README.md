@@ -173,3 +173,7 @@
  cheat and provide recursive solution.
 
 - 37 "Circle area inside square" - Turn an area of a square in to an area of a circle that fits perfectly inside the square.
+
+- 38 (LVL 8) "Sort and Star" - You will be given an vector of string(s).
+ You must sort it alphabetically (case-sensitive!!) and then return the first value.
+ The returned value must be a string, and have ' * * * ' between each of its letters.
