@@ -458,3 +458,12 @@ function twoSort(s) {
   var word = s.sort()[0];
   return word.split('').join('***')
 }
+
+//  39 (LVL 7) "Square(n) Sum" - Complete the squareSum method so that it squares each number passed
+// into it and then sums the results together.
+function squareSum(numbers){
+  var sq = numbers.map(function(num) {
+    num * num;
+  })
+  return sq.reduce(add, 0);
+};
