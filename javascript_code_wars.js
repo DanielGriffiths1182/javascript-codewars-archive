@@ -480,3 +480,7 @@ function countSheeps(arrayOfSheep) {
   });
   return count;
 };
+// Alternate Solution -- Much Better Refactoring
+function countSheeps(arrayOfSheeps) {
+  return arrayOfSheeps.filter(Boolean).length;
+}
