@@ -152,3 +152,9 @@
 - 40 (LVL 8) "Counting Sheep" - Consider an array of sheep where some sheep may be missing from their place.
  We need a function that counts the number of sheep present in the array (true means present).
  NOTE: Array of true/false booleans, to be clear.
+
+- 41 (LVL 8) "simple calculator" - You are required to create a simple calculator that returns the result of addition ,subtraction ,
+ multiplication and division of two numbers . example
+
+ calculator(1,2,"+"); //=> result will be 3
+ if the variables are not numbers or the sign does not belong to the list above a message "unknown value" must be returned.

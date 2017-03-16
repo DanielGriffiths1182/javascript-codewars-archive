@@ -484,3 +484,16 @@ function countSheeps(arrayOfSheep) {
 function countSheeps(arrayOfSheeps) {
   return arrayOfSheeps.filter(Boolean).length;
 }
+
+
+//  41 (LVL 8) "simple calculator" - You are required to create a simple calculator that returns the result of addition ,subtraction , multiplication and
+// division of two numbers . example
+
+// calculator(1,2,"+"); //=> result will be 3
+// if the variables are not numbers or the sign does not belong to the list above a message "unknown value" must be returned.
+function calculator(a,b,sign) {
+  try
+    { return eval(a+sign+b); }
+  catch(e)
+    { return "unknown value"; }
+}
