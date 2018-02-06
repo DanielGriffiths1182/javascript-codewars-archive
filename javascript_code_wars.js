@@ -1,4 +1,4 @@
-// 1 Use math pi and conditional - alternate solutions
+// 1 
 function annulusArea(a) {
   if(a <= 1) {
     return 0;
@@ -8,7 +8,6 @@ function annulusArea(a) {
     return Number( p.toFixed( 2 ));
   }
 }
-//
 function annulusArea(a) {
   const r1 = a / Math.sqrt(3) / 2
   const r2 = a / Math.sqrt(3)
@@ -24,15 +23,15 @@ function annulusArea(a) {
   return Math.round(Math.PI * a * a / 2 / 2 * 100) / 100
 }
 
-// 2     Calculate the loudness of a sound wave, given its intensity as a parameter to the dBScale/db_scale function.
+// 2
 
 const dBScale = intensity => 10 * (12 + Math.log10(intensity));
-//
+
 function dBScale(intensity) {
   return 10 * (Math.log10(intensity) + 12);
 }
 
-// 3    Given an array of elements, return the binary equivilent of the sum of the elements
+// 3
 function arr2bin(arr){
   return arr.reduce((x , y) => x + (typeof y == "number" ? y : 0), 0).toString(2);
 }
@@ -49,7 +48,7 @@ function arr2bin(arr){
 }
 
 
-// 4   Fix the below javascript code without removing any lines of code. The intended output is Hello World.
+// 4   
 function run() {
    "use strict";
 
@@ -60,7 +59,7 @@ function run() {
     }};
 }
 
-// 5 Work with OOP, javascript - introduction to constructor concept, differs from ruby
+// 5 
 class Labrador {
   constructor(n, age, g, m) {
     this.name = n;
@@ -80,7 +79,7 @@ class Labrador {
   }
 }
 
-// 6  Fix this helloWorld function
+// 6  
 function run() {
 
     return {
@@ -90,12 +89,12 @@ function run() {
     }};
 }
 
-// 7  Return string with no whitespace
+// 7  
 function noSpace(x){
   return x.split(' ').join('')
 }
 
-// 8  Write function avg which calaculates average of numbers in given list.
+// 8  
 function find_average(array) {
   return array.reduce(function (p, c) {
     return p + c;
@@ -106,15 +105,7 @@ function find_average(array) {
   return array.reduce((a, b) => (a + b)) / array.length;
 }
 
-// 9  Write a method sum (sum_array in python) that takes an array of numbers and
-//    returns the sum of the numbers. These may be integers or decimals for Ruby and any
-//    instance of Num for Haskell. The numbers can also be negative. If the array does not
-//    contain any numbers then you should return 0.
-      // Assumptions
-      //
-      // You can assume that you are only given numbers.
-      // You cannot assume the size of the array.
-      // You can assume that you do get an array and if the array is empty, return 0.
+// 9  
 function sum (numbers) {
     "use strict";
     var sum = numbers.reduce(add, 0);
@@ -124,21 +115,7 @@ function sum (numbers) {
   return sum;
 };
 
-// //  10 In javascript, Array is one of basic data types. Define an empty array can use
-    // var arr=new Array() or var arr=[]
-    //
-    // Array has an attribute: length, if there is an array named arr, using arr.length
-    // to know how many elements are contained in the array.
-    //
-    // Each element in the array has an index, use arr[index] to get the value of element.
-    //
-    // index always start from 0, so the first element of array is arr[0],
-    // the last element of array is arr[arr.length-1].
-    //
-    // If we want to add new elements to the array, you can use the array method: push().
-    // It can add an element to the end of the array.
-    // Instead, if we want to remove the last element of the array,
-    // you can use the array method: pop(). for example:
+//  10 
 function getLength(arr){
   return arr.length
 }
@@ -159,9 +136,7 @@ function popElement(arr){
 }
 
 
-//  11 I've create three function, and defined some global variables,
-// please select some variables that can make up the name of the function,
-// and return them(Please note the uppercase and lowercase letters are different).
+//  11
 var a1="A",a2="a",b1="B",b2="b",c1="C",c2="c",d1="D",d2="d",e1="E",e2="e",n1="N",n2="n"
 function Dad(){
   //select some variable to combine "Dad"
@@ -191,7 +166,7 @@ function answer3(){
 }
 
 
-//  12 Find the last element of a list.
+//  12 
 function last(list){
   var a;
   if (arguments.length > 1) {
@@ -212,9 +187,7 @@ function last(...args){
   }
 
 
-//  13 As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
-  // 1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
-  // fibonacci number.
+//  13 
 function getFib(index) {
     var a = 1, b = 0, c;
   while (index >= 0){
@@ -226,12 +199,7 @@ function getFib(index) {
   return b
 }
 
-//  14 (could not solve with JavaScript - this is someone elses solution)!!!
-
-//    As you probably know, Fibonacci sequence are the numbers in the following integer sequence:
-//    1, 1, 2, 3, 5, 8, 13... Write a method that takes the index as an argument and returns last
-//    digit of (index) fibonacci number.
-
+//  14
 function getLastDigit(index) {
   var one = 1,
       two = 1,
@@ -264,7 +232,7 @@ function getLastDigit(index) {
   return b;
 }
 
-// 15 Return the minimum, maximum and difference between the two - values from an array (ages) in new array (myArray)
+// 15
 function differenceInAges(ages){
   var myArray = new Array();
   myArray.push(Math.min.apply(null, ages))
@@ -280,7 +248,7 @@ function differenceInAges(ages){
   return [min, max, max-min];
 }
 
-//  16 Concatenate string, return with space in between 2 strings. wouldve used s1.concat(s2); otherwise
+//  16 
 function joinStrings(string1, string2){
    var result = string1 + " " + string2
    return result
@@ -300,40 +268,35 @@ function even_or_odd(number) {
   return number % 2 ? "Odd" : "Even"
 }
 
-//  18 Simple, remove the spaces from the string, then return the resultant string.
+//  18
 function noSpace(x){
   return x.replace(/ /g,'')
 }
 
-//  19 Remove a exclamation mark from the end of string.
-//  For a beginner kata, you can assume that the input data is always a string, no need to verify it.
+//  19
 function remove(s){
   return s.replace(/!$/, '');
 }
 
-//  20 Reverse the words in a string.
+//  20 
 function reverse(string){
   var reverse = string.split(' ').reverse().join(' ');
   return reverse
 }
 
-//  21 (SIMPLE) Push string into array.
+//  21
 function stringToArray(string){
   var arr =  new Array(string)
   return arr
 }
-//  22 (SIMPLE) Return a string when given an argument (num), which is an Integer/Boolean
+//  22
 function numberToString(num) {
   return num.toString()
 }
 function booleanToString(b){
   return b.toString()
 }
-// 23 Your task is to make two functions, max and min (maximum and minimum in PHP)
- // that take a(n) array/vector of integers list as input and outputs, respectively,
- // the largest and lowest number in that array/vector.
-
-
+// 23
 var min = function(list){
     var min_of_array = Math.min.apply(Math, list);
     return min_of_array;
@@ -347,46 +310,43 @@ var max = function(list){
 const min = (list) => Math.min(...list);
 const max = (list) => Math.max(...list);
 
-//  24 The function findDigit takes two numbers as input, num and nth.
-// It outputs the nth digit of num (counting from right to left).
+//  24
 var findDigit = function(num, nth){
   return nth > 0? +(num+'').split('').reverse().splice(nth - 1, 1): -1;
 }
 
 const findDigit = (num, nth) => nth <= 0 ? -1 : +[...Math.abs(num)+''].reverse()[nth-1] || 0;
 
-//  25 Return integer, from string. Got NaN becuase I misinterpreted the way the function was set up, and dont
-//  forget the radix.
+//  25
 var stringToNumber = function(str){
      return parseInt(str, 0)
 }
 
-//  26 Return boolean, from string.
+//  26
 function booleanToString(b){
   var n = new Boolean(b);
   return n.toString()
 }
 
-//  27 Return Yes, for true. No, for false. Turning a boolean into a coorelated string.
+//  27 
 function boolToWord( bool ){
   return bool ? 'Yes' : 'No';
 }
 
-//  28 Return the mean of the values in array (marks), round to integer, not float
+//  28
 function getAverage(marks){
   var sum = marks.reduce((pre, cur) => cur += pre);
   var avg = sum / marks.length;
   return parseInt(avg, 0)
 }
 
-// 29 Return the difference between num, and 6.
+// 29
 function sixToast(num) {
   var n = num - 6
   return Math.abs(n)
 }
 
-//  30 Edit this function to make the tests pass, operations ( +, * ) on arrays,
-//  and the reverse of a string in an interesting way
+//  30 
 function multi(arr) {
   return arr.reduce(function(a , b){return a * b;});
 }
@@ -400,14 +360,13 @@ function reverse(str) {
   return string;
 }
 
-//  31 To simple: I created this function to add five to any number
-//  that was passed in to it and return the new value. It doesn't throw any errors but it returns the wrong number.
+//  31
 function addFive(num) {
   var total = num + 5
   return total
 }
 
-//  32 One flowers petals are even and one flowers petals are odd == true, else false.
+//  32 
 function lovefunc(flower1, flower2){
   var love = (flower1 + flower2) % 2 == 0 ? false : true;
   return love
@@ -417,8 +376,7 @@ function lovefunc(flower1, flower2){
   return flower1 % 2 !== flower2 % 2;
 }
 
-//  33 Write a function numberJoy() which tests if a positive integer n is Harshad,
-//  and returns True if the product of its digit sum, and its digit sum reversed, equals n. Otherwise return False.
+//  33
 function numberJoy(n) {
   var digits = eval(n.toString().split('').join('+'));
   var rev_digits = digits.toString().split('').reverse().join('');
@@ -430,15 +388,12 @@ function invert(array) {
    return array.map( x => x === 0 ? x : -x);
 }
 
-//  35 "Plural" - We need a simple function that determines if a plural is needed or not.
-//     It should take a number, and return true if a plural should be used with that number or false if not.
-//     This would be useful when printing out a string such as 5 minutes, 14 apples, or 1 sun.
+//  35
 function plural(n) {
   return n === 1 ? false : true;
 }
 
-//  36 "Get length of the list recursively" - Write function lenR which returns the length of a given list.
-//     Try no to cheat and provide recursive solution.
+//  36
 function lenR(x) {
    if (x == 0) {
         return 0;
@@ -446,21 +401,18 @@ function lenR(x) {
     return lenR(x.slice(0, -1)) + 1;
 }
 
-//  37 "Circle area inside square" - Turn an area of a square in to an area of a circle that fits perfectly inside the square.
+//  37 
 function squareAreaToCircle(size){
   return size * Math.PI / 4;
 }
 
-//  38 (LVL 8) "Sort and Star" - You will be given an vector of string(s).
-// You must sort it alphabetically (case-sensitive!!) and then return the first value.
-// The returned value must be a string, and have '***' between each of its letters.
+//  38
 function twoSort(s) {
   var word = s.sort()[0];
   return word.split('').join('***')
 }
 
-//  39 (LVL 7) "Square(n) Sum" - Complete the squareSum method so that it squares each number passed
-// into it and then sums the results together.
+//  39
 function squareSum(numbers){
   var sq = numbers.map(function(num) {
     num * num;
@@ -468,9 +420,7 @@ function squareSum(numbers){
   return sq.reduce(add, 0);
 };
 
-//  40 (LVL 8) "Counting Sheep" - Consider an array of sheep where some sheep may be missing from their place.
-// We need a function that counts the number of sheep present in the array (true means present).
-//  NOTE Array of true/false booleans, to be clear.
+//  40 
 function countSheeps(arrayOfSheep) {
   var count = 0;
   arrayOfSheep.map(function(current){
@@ -486,11 +436,7 @@ function countSheeps(arrayOfSheeps) {
 }
 
 
-//  41 (LVL 8) "simple calculator" - You are required to create a simple calculator that returns the result of addition ,subtraction , multiplication and
-// division of two numbers . example
-
-// calculator(1,2,"+"); //=> result will be 3
-// if the variables are not numbers or the sign does not belong to the list above a message "unknown value" must be returned.
+//  41
 function calculator(a,b,sign) {
   try
     { return eval(a+sign+b); }
