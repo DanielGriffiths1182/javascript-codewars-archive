@@ -1,10 +1,10 @@
-#JavaScript CodeWars Review
+# JavaScript CodeWars Review
 
 **Archive of completed CodeWars exercises, languages - JavaScript**
 
 *Short description and numbered in chronological order.*
 
-#JAVASCRIPT
+# JAVASCRIPT
 
 - 1 Utilize Math.PI and conditional - alternate solutions, just fooling around
 
